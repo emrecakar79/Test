@@ -28,7 +28,7 @@ public  class Main
         double reihe = 0;
         for (int i = 1 ; i <= 10 ; ++i)
         {
-            reihe += 1/pow(i, 2);
+            reihe += 1/pow(i, 2);//So sieht's besser aus!
         }
         System.out.println(reihe);
     }
