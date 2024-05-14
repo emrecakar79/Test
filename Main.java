@@ -20,6 +20,6 @@ public class Main
         System.out.println("Summe:" + summe + " Multiplikation: " + mult);
         
         //Rebase Update 1
-        //Master Update 2
+        //Rebase Update 2
     }
 }
