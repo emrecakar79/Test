@@ -9,5 +9,11 @@ public class Main
         {
             summe = summe + i;
         }
+        
+        int mult = 1;
+        for (int i = 2; i <= 10 ; ++i)
+        {
+            mult = mult * i;
+        }
     }
 }
