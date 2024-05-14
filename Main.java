@@ -11,7 +11,7 @@ public class Main
             summe += i;
         }
         
-        int mult = 1;
+        double mult = 1;
         for (int i = 2; i <= obereGrenze ; ++i)
         {
             mult *= i;
