@@ -5,15 +5,15 @@ public class Main
     public static void main(String args[])
     {
         int summe = 0;
-        int og = 10;
+        int limit = 10;
         
-        for (int i = 1; i <= og ; ++i)
+        for (int i = 1; i <= limit ; ++i)
         {
             summe += i;
         }
         
         int mult = 1;
-        for (int i = 1; i <= og ; ++i)
+        for (int i = 1; i <= limit ; ++i)
         {
             mult *= i;
         }
