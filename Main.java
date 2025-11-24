@@ -9,13 +9,13 @@ public class Main
         
         for (int i = 1; i <= og ; ++i)
         {
-            summe = summe + i;
+            summe += i;
         }
         
         int mult = 1;
         for (int i = 1; i <= og ; ++i)
         {
-            mult = mult * i;
+            mult *= i;
         }
         
         System.out.println("Summe = " + summe + " Mult = " + mult);
