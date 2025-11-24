@@ -18,6 +18,6 @@ public class Main
             mult = mult * i;
         }
         
-        System.out.println("Summe = " + summe + " Mult = " + mult);
+        System.out.println("Summe: " + summe + " Mult:" + mult);
     }
 }
