@@ -1,4 +1,4 @@
-
+import java.math.*;
 
 public class Main
 {
@@ -12,10 +12,10 @@ public class Main
             summe += i;
         }
         
-        int mult = 1;
+        BigInteger mult = new BigInteger("1");
         for (int i = 1; i <= limit ; ++i)
         {
-            mult *= i;
+            mult = mult.multiply(new BigInteger(String.valueOf(i)));
         }
         
         System.out.println("Summe: " + summe + " Mult:" + mult);
