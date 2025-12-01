@@ -5,7 +5,7 @@ public class Main
     public static void main(String args[])
     {
         int summe = 0;
-        int limit = 50;
+        int limit = 100;
         
         for (int i = 1; i <= limit ; ++i)
         {
